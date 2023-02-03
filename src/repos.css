@@ -1,0 +1,38 @@
+
+:root{
+    --green: #64ffda;
+    --radius: 10px;
+    --background-grey: #222831;
+
+    --border: #414955;
+  }
+
+
+
+  .repos-container{
+    padding: 10px;
+
+    height: 90vh;
+  }
+
+  .repositorys{
+    margin: auto;
+    width: 94%;
+    height: 94%;
+
+    padding: 10px;
+
+    background-color: var(--background-grey);
+
+    border: 2px solid var(--border);
+
+    border-radius: 10px;
+  }
+
+  .repos-list{
+    width: 30%;
+    height: 100%;
+    background-color: red;
+  }
+
+  

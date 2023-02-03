@@ -1,0 +1,80 @@
+
+.code-container{
+    padding: 10px;
+  }
+  
+  .editor{
+    float:left;
+  
+    width: 56vw;
+    height: 84vh;
+  
+    padding: 10px;
+  }
+  
+  .editor textarea{
+    width: 99%;
+    height: 94%;
+    resize: none;
+  
+    background-color: var(--background-grey);
+    border: 2px solid #414955;
+    border-radius: 10px;
+  
+  
+    color: white;
+  
+    font-size: 18px;
+  
+    padding: 10px;
+  }
+
+  .editor textarea:focus{
+    outline: none !important;
+  }
+  
+  .editor button{
+    margin: 6px;
+    padding: 10px;
+  
+    background-color: var(--background-grey);
+    border: 2px solid #414955;
+    border-radius: 10px;
+  
+    color: white;
+  }
+  
+  
+  .editor button:hover{
+    color: var(--green);
+  }
+  
+  
+  .output{
+    float: right;
+  
+    width: 38vw;
+    height: 84vh;
+  
+    padding: 10px;
+  
+    margin-right: 20px;
+  }
+  
+  .output-terminal{
+    width: 99%;
+    height: 94%;
+    resize: none;
+  
+  
+    background-color: var(--background-grey);
+    border: 2px solid #414955;
+    border-radius: 10px;
+  
+  
+    color: white;
+  
+    font-size: 18px;
+  
+    padding: 10px;
+  }

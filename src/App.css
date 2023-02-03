@@ -3,13 +3,16 @@
   --green: #64ffda;
   --radius: 10px;
   --background-grey: #222831;
+
+  --border: #414955;
 }
 
 header{
   background-color: var(--background-grey);
-  height: 10vh;
+  height: 8vh;
 
   text-align: left;
+  text-align: center;
 }
 
 ul{
@@ -23,8 +26,12 @@ ul{
 
 li{
   float: left;
-  padding: 8px;
+  padding: 10px;
+}
 
+#right{
+  float:right;
+  padding: 10px;
 }
 
 li a {
@@ -42,7 +49,7 @@ li a {
 
 
 li a:hover{
-  background-color: grey;
+  cursor: pointer;
   color: var(--green);
 
 }
