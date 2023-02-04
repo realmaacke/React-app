@@ -1,5 +1,12 @@
+
+:root{
+  --green: #64ffda;
+  --radius: 10px;
+  --background-grey: #222831;
+}
+
 header{
-  background-color: red;
+  background-color: var(--background-grey);
   height: 10vh;
 
   text-align: left;
@@ -7,4 +14,35 @@ header{
 
 ul{
  display: inline-block;
+ list-style-type: none;
+
+ overflow: hidden;
+ margin: 0;
+ padding: 0;
+}
+
+li{
+  float: left;
+  padding: 8px;
+
+}
+
+li a {
+
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px;
+
+
+  background-color:#303742;
+  border: 2px solid #414955;
+  border-radius: 4px;
+}
+
+
+li a:hover{
+  background-color: grey;
+  color: var(--green);
+
 }
